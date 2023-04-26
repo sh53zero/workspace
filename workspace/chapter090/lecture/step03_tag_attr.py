@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup  #html vktld
 
 # 1-1.로컬 파일 읽기
-file=open('D:/git_office/workspace/chapter09/data/html02.html', mode='r', encoding='utf-8')
+file=open('/chapter09/data/html02.html', mode='r', encoding='utf-8')
 source=file.read()
 
 # 1-2.html 파싱
